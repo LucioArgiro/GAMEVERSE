@@ -254,3 +254,56 @@ table tr {
 .footer-columna a:hover {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .ButtonHeader, .ButtonMain {
+    width: 100%;
+    text-align: center;
+  }
+
+  #foot {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-columna {
+    margin-bottom: 20px;
+  }
+  
+}
+@media screen and (max-width: px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .ButtonHeader, .ButtonMain {
+    width: 100%;
+    text-align: center;
+  }
+
+  #foot {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-columna {
+    margin-bottom: 20px;
+  }
+  
+}
